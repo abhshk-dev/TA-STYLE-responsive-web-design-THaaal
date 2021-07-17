@@ -1,0 +1,113 @@
+<!--writeCode
+
+- Create a responsive layout according to the design shown below.
+
+#### Large Screen view(Above 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-desktop-view.png)
+
+#### Small Screen view(Below 768px)
+
+![Responsive Layout Assignment](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/rwd/ex-1-mob-view.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Pay attention to the codes, your code quality matters a lot.
+
+- Try to implement the layout as exactly as it has been provided in the design.
+
+- Pay attention to minor things like spacing, alignment, size, etc.
+
+- Use any font-family which suits better for the assignment.
+
+- Once you are done with the assignment connect with the mentor and get the code reviewed.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Responsive website</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/882d59f2ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex items-center">
+            <a href="#">
+                <img src="assets/logo.png" alt="logo-png">
+            </a>
+            <nav class="navbar">
+                <ul class="flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a class="active" href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <!---Hero section-->
+    <section class="hero padding">
+        <div class="container flex">
+            <article class="flex-48">
+                <h2 class="article-heading">
+                    Why is Lorem ipsum?
+                </h2>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis minus pariatur autem impedit repellendus 
+                    incidunt laborum perferendis nobis accusamus praesentium mollitia corporis architecto itaque  
+                    incidunt laborum perferendis nobis accusamus praesentium mollitia corporis architecto itaque iste atque, esse, facilis placeat.
+                    incidunt laborum perferendis nobis accusamus praesentium mollitia corporis architecto itaque iste atque, esse,mollitia corporis architecto itaque iste atque, esse,
+                    mollitia corporis architecto itaque iste atque, esse,mollitia mollitia corporis architecto itaque iste atque, ess.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </article>
+            <div class="flex-48">
+                <img class="full-width" src="assets/01.png" alt="pic-01">
+            </div>
+           
+
+        </div>
+    </section>
+    <!---Blog section-->
+    <section class="padding blog">
+        <h1 class="sec-header">Our Blog</h1>
+        <div class="container flex ">
+            <div class="flex-30">
+                <img class="full-width" src="assets/02.png" alt="pic-02">
+                <h3>Why do we use it?</h3>
+                <p >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui, quod blanditiis maiores 
+                    itaque et ratione vero molestias non natus dolore distinctio quis.
+                </p>
+                <a href="#" class="btn btn-secondary">Read more</a>
+            </div>
+            <div class="flex-30">
+                <img class="full-width" src="assets/03.png" alt="pic-03">
+                <h3>Where does it come from?</h3>
+                <p >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui, quod blanditiis maiores 
+                    itaque et ratione vero molestias non natus dolore distinctio quis.
+                </p>
+                <a href="#" class="btn btn-secondary">Read more</a>
+
+            </div>
+            <div class="flex-30 stretch">
+                <img class="full-width" src="assets/04.png" alt="pic-04">
+                <h3>Where can i get some?</h3>
+                <p >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit qui, quod blanditiis maiores 
+                    itaque et ratione vero molestias non natus dolore distinctio quis.
+                </p>
+                <a href="#" class="btn btn-secondary">Read more</a>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
