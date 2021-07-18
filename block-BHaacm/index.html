@@ -37,7 +37,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container flex items-center">
+        <div class="container flex justify-center column items-center">
             <a href="#">
                 <img src="assets/logo.png" alt="logo-png">
             </a>
@@ -51,10 +51,11 @@
         </div>
         
     </header>
-    <!---Hero section-->
+    <main>
+        <!---Hero section-->
     <section class="hero padding">
-        <div class="container flex">
-            <article class="flex-48">
+        <div class="container flex wrap">
+            <article class=" flex-48 flex-100">
                 <h2 class="article-heading">
                     Why is Lorem ipsum?
                 </h2>
@@ -67,7 +68,7 @@
                 </p>
                 <a href="#" class="btn">Read more</a>
             </article>
-            <div class="flex-48">
+            <div class="flex-48 flex-100 ">
                 <img class="full-width" src="assets/01.png" alt="pic-01">
             </div>
            
@@ -77,8 +78,8 @@
     <!---Blog section-->
     <section class="padding blog">
         <h1 class="sec-header">Our Blog</h1>
-        <div class="container flex ">
-            <div class="flex-30">
+        <div class="container flex wrap ">
+            <div class="flex-30 flex-100 mabot">
                 <img class="full-width" src="assets/02.png" alt="pic-02">
                 <h3>Why do we use it?</h3>
                 <p >
@@ -87,7 +88,7 @@
                 </p>
                 <a href="#" class="btn btn-secondary">Read more</a>
             </div>
-            <div class="flex-30">
+            <div class="flex-30 flex-100 mabot">
                 <img class="full-width" src="assets/03.png" alt="pic-03">
                 <h3>Where does it come from?</h3>
                 <p >
@@ -97,7 +98,7 @@
                 <a href="#" class="btn btn-secondary">Read more</a>
 
             </div>
-            <div class="flex-30 stretch">
+            <div class="flex-30 flex-100 mabot stretch">
                 <img class="full-width" src="assets/04.png" alt="pic-04">
                 <h3>Where can i get some?</h3>
                 <p >
@@ -109,5 +110,25 @@
             
         </div>
     </section>
+    </main>
+    <footer class="footer">
+        <div class="container flex justify-center column items-center ">
+            <small>&copy;AltCampus</small>
+            <nav class="navbar">
+                <ul class="flex">
+                    <li>
+                      
+                            <i class="fab fa-facebook-square"></i>
+                        
+                    </li>
+                    <li>
+                        
+                            <i class="fab fa-twitter-square"></i>
+                        
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
