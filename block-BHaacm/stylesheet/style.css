@@ -89,6 +89,9 @@ html{
 .full-width{
     width: 100%;
 }
+.height{
+    height: 0;
+}
 .flex-30{
     flex: 0 1 30%;
 }
@@ -100,6 +103,9 @@ a{
   
     color: #fff;
     
+}
+.font-0{
+    font-size: 0rem;
 }
 .padding{
     padding: 5rem 0;
@@ -157,6 +163,10 @@ a{
     font-weight: 600;
     margin-bottom: 3rem;
 }
+.blog img{
+    max-height: 14.5rem;
+    object-fit: cover;
+}
 .blog h3{
     font-size: 2rem;
     font-weight: 600;
@@ -183,6 +193,7 @@ small{
     
     vertical-align: middle;
 }
+/*----REsponsive website----*/
 
 @media screen and (max-width:768px) {
     html{
@@ -211,5 +222,12 @@ small{
         font-size: 3rem;
         font-weight: 600;
         margin-bottom: 2.4rem;
+    }
+    .text{
+        font-size: 1.2rem;
+        
+    }
+    .blog p{
+        font-size: 1.3rem;
     }
 }
